@@ -4,7 +4,7 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -12,7 +12,7 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Author](#author)
 
 
 ## Overview
@@ -30,20 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+https://github.com/deepak539/calculator-web-app/issues/1#issue-998272529
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/deepak539/calculator-web-app)
+- Live Site URL: (https://deepak539.github.io/calculator-web-app/)
 
 
 ### Built with
@@ -55,9 +48,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - desktop-first workflow
 
 
-### What I learned
-
-
+### What I learned: 
+I learned how to make theme swithcer using SASS.
 
 $scopedTheme: null;
 @mixin themeGen($allThemesMap: $themes) {
@@ -90,9 +82,6 @@ $scopedTheme: null;
 }
 
 
-I learned how to make theme swithcer using SASS.
-
-
 ### Continued development
 
 I am still trying to understand the code of generating css using SASS for switching themes. 
@@ -104,8 +93,8 @@ I am still trying to understand the code of generating css using SASS for switch
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Deepak Kumar Asnani](https://deepak539.github.io/calculator-web-app/)
+- Frontend Mentor - [@deepak539](https://www.frontendmentor.io/profile/deepak539)
 
 
 
