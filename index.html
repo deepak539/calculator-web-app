@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="theme1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="theme-theme1">
+  <main class="main">
+    <div class="calculator">
+      <div class="calculator-header">
+        <h4 class="calculator-header-heading">calc</h4>
+        <div class="calculator-header-theme">
+          <p class="calculator-header-theme-para">Theme</p>
+          <div class="calculator-header-theme-switch" id="switch">
+            <ul class="calculator-header-theme-switch-list">
+              <li class="calculator-header-theme-switch-list-item">
+                1
+              </li>
+              <li class="calculator-header-theme-switch-list-item">
+                2
+              </li>
+              <li class="calculator-header-theme-switch-list-item">
+                3
+              </li>
+            </ul>
+            <div class="calculator-header-theme-switch-switcher" id="switcher">
+              <div class="calculator-header-theme-switch-switcher-button" id="btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calculator-display">
+        <p class="calculator-display-text" id="display"></p>
+      </div>
+      <div class="calculator-buttons">
+        <div class="calculator-buttons-input" id="first-row">
+          <input type="button" class="calculator-buttons-input-item" id="seven" onclick="output(true, document.getElementById('seven').value)" value="7">
+          <input type="button" class="calculator-buttons-input-item" id="eight" onclick="output(true, document.getElementById('eight').value)" value="8">
+          <input type="button" class="calculator-buttons-input-item" id="nine" onclick="output(true, document.getElementById('nine').value)" value="9">
+          <input type="button" class="calculator-buttons-input-item delete" id="delete" onclick="output(false, 'delete')" value="DEL">
+        </div>
+        <div class="calculator-buttons-input" id="second-row">
+          <input type="button" class="calculator-buttons-input-item" id="four" onclick="output(true, document.getElementById('four').value)" value="4">
+          <input type="button" class="calculator-buttons-input-item" id="five" onclick="output(true, document.getElementById('five').value)" value="5">
+          <input type="button" class="calculator-buttons-input-item" id="six" onclick="output(true, document.getElementById('six').value)" value="6">
+          <input type="button" class="calculator-buttons-input-item" id="plus" onclick="output(true, document.getElementById('plus').value)" value="+">
+        </div>
+        <div class="calculator-buttons-input" id="third-row">
+          <input type="button" class="calculator-buttons-input-item" id="one" onclick="output(true, document.getElementById('one').value)" value="1">
+          <input type="button" class="calculator-buttons-input-item" id="two" onclick="output(true, document.getElementById('two').value)" value="2">
+          <input type="button" class="calculator-buttons-input-item" id="three" onclick="output(true, document.getElementById('three').value)" value="3">
+          <input type="button" class="calculator-buttons-input-item" id="subtract" onclick="output(true, document.getElementById('subtract').value)" value="-">
+        </div>
+        <div class="calculator-buttons-input" id="forth-row">
+          <input type="button" class="calculator-buttons-input-item" id="decimal" onclick="output(true, document.getElementById('decimal').value)" value=".">
+          <input type="button" class="calculator-buttons-input-item" id="zero" onclick="output(true, document.getElementById('zero').value)" value="0">
+          <input type="button" class="calculator-buttons-input-item" id="divide" onclick="output(true, document.getElementById('divide').value)" value="/">
+          <input type="button" class="calculator-buttons-input-item" id="multiply" onclick="output(true, document.getElementById('multiply').value)" value="*">
+        </div>
+        <div class="calculator-buttons-input" id="fifth-row">
+          <input type="button" class="calculator-buttons-input-item" id="reset" onclick="output(false, 'reset')" value="RESET">
+          <input type="button" class="calculator-buttons-input-item" id="equal" onclick="output(false, 'equal')" value="=">
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>
